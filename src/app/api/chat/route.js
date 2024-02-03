@@ -31,7 +31,6 @@ export async function POST(request) {
         });
     }
 
-    // get the API key from the request or the one set as an env variable
     const openai = new OpenAI({
         apiKey: apiKey || process.env.OPENAI_API_KEY,
     });

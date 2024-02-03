@@ -1,3 +1,6 @@
+
+![image](https://github.com/0xfauzi/visual-agent/assets/5702728/8dfff751-1701-4a65-a609-463ffcc6169e)
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started

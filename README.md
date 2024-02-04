@@ -1,8 +1,24 @@
 ## Overview
 ![image](https://github.com/0xfauzi/visual-agent/assets/5702728/8dfff751-1701-4a65-a609-463ffcc6169e)
 
+This is a demonstration of audio-visual user interactions with AI assistants, much like the Google Gemini demo. It captures video and audio, converts speech to text, processes the video as individual frames, and generates responses through text-to-speech output, simulating a conversation.
 
-## Getting Started
+## Application Flow
+- **Video + Audio Capture:** The application begins by capturing both video and audio inputs.
+- **Screenshots and Transcription:** Video frames are processed as screenshots while audio is transcribed to text.
+- **AI Processing:** Both visual and textual inputs are analyzed by the GPT-4 Vision Model, which then generates a contextual response.
+- **Response Generation:** The AI's response is converted from text to speech, providing the user with audible feedback.
+
+## Key Features
+- **Audio-Visual Input Processing:** Captures video and audio simultaneously, leveraging these inputs for dynamic interaction.
+- **Speech-to-Text Transcription:** Utilizes OpenAI's Whisper to accurately transcribe user speech.
+- **AI-Driven Image Analysis:** Uses the GPT-4 Vision Model to understand and interpret visual information from the captured video frames.
+- **Interactive AI Responses:** Generates spoken responses using text-to-speech (TTS-1)
+
+## Demo
+*todo*
+
+## Running locally
 
 First, run the development server:
 
